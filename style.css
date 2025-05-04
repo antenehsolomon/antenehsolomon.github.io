@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f7f8fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+header h1 {
+  font-size: 2.5rem;
+  color: #1e1e1e;
+}
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.app-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 260px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.app-card:hover {
+  transform: translateY(-5px);
+}
+.app-card img {
+  width: 64px;
+  height: 64px;
+}
+.app-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.3rem;
+  color: #222;
+}
+.app-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+.app-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #4F46E5;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.app-card a:hover {
+  background: #3730a3;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
